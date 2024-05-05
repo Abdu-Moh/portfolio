@@ -14,6 +14,11 @@ body {
   overflow-x: hidden !important;
 }
 
+section {
+  max-width: 100vw !important;
+  overflow-x: hidden !important;
+}
+
 ::-webkit-scrollbar {
   width: 10px;
   background-color: #010529;
@@ -59,6 +64,10 @@ body {
 
 .certificate-component {
   display: flex;
+}
+
+#cert-flex {
+  flex-basis: 100%;
 }
 
 .padding-section-small {
@@ -129,7 +138,7 @@ body {
 
 .hidden2 {
   opacity: 0;
-  transform: translateY(10%);
+  transform: translateX(10px);
   transition: 2s;
   overflow-x: hidden !important;
 }
@@ -167,18 +176,6 @@ body {
 .hidden2 {
   opacity: 0;
   transform: translateX(50%);
-  transition: 2s;
-}
-
-.hidden3 {
-  opacity: 0;
-  transform: translateZ(30%);
-  transition: 2s;
-}
-
-.show3 {
-  opacity: 1;
-  transform: translateZ(0%);
   transition: 2s;
 }
 
@@ -1103,6 +1100,11 @@ img {
 }
 
 @media screen and (max-width: 991px) {
+  body {
+    max-width: 100vw !important;
+    overflow-x: hidden !important;
+  }
+
   h1 {
     font-size: 3.25rem;
   }
@@ -1216,7 +1218,7 @@ img {
     display: none;
   }
 
-    .orbit {
+  .orbit {
     display: none;
     visibility: hidden;
     z-index: 0;
@@ -1382,7 +1384,7 @@ img {
 
   .header-component {
     grid-template-columns: 1fr;
-    overflow: hidden;
+    overflow: visible;
   }
 
   .header-image-wrapper {
