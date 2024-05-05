@@ -86,15 +86,29 @@ const ObserveR = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     console.log(entry);
     if (entry.isIntersecting) {
-      entry.target.classList.add("show2");
+      entry.target.classList.add("show");
     } else {
-      entry.target.classList.remove("show2");
+      entry.target.classList.remove("show");
     }
   });
 });
 
 const HiddenElement = document.querySelectorAll(".hidden2");
 HiddenElement.forEach((element) => ObserveR.observe(element));
+
+const ObserveR3 = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    console.log(entry);
+    if (entry.isIntersecting) {
+      entry.target.classList.add("show3");
+    } else {
+      entry.target.classList.remove("show3");
+    }
+  });
+});
+
+const Hidden3Element = document.querySelectorAll(".hidden3");
+Hidden3Element.forEach((element) => ObserveR3.observe(element));
 
 const observern = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
