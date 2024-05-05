@@ -166,7 +166,13 @@ body {
 
 .hidden2 {
   opacity: 0;
-  transform: translateX(50%);
+  transform: translateZ(10%);
+  transition: 2s;
+}
+
+.show2 {
+  opacity: 1;
+  transform: translateZ(0%);
   transition: 2s;
 }
 
