@@ -1093,15 +1093,6 @@ img {
   }
 }
 
-@media screen and (max-width: 1300px) {
-  .orbit {
-    display: none;
-    visibility: hidden;
-    z-index: 0;
-    width: 0px;
-  }
-}
-
 @media screen and (max-width: 991px) {
   h1 {
     font-size: 3.25rem;
@@ -1214,6 +1205,13 @@ img {
 
   .circle {
     display: none;
+  }
+
+    .orbit {
+    display: none;
+    visibility: hidden;
+    z-index: 0;
+    width: 0px;
   }
 }
 
@@ -1375,7 +1373,7 @@ img {
 
   .header-component {
     grid-template-columns: 1fr;
-    overflow: visible;
+    overflow: hidden;
   }
 
   .header-image-wrapper {
