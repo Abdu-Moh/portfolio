@@ -129,7 +129,7 @@ body {
 
 .hidden2 {
   opacity: 0;
-  transform: translateX(10px);
+  transform: translateY(10%);
   transition: 2s;
   overflow-x: hidden !important;
 }
