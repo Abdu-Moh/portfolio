@@ -166,11 +166,17 @@ body {
 
 .hidden2 {
   opacity: 0;
-  transform: translateZ(10%);
+  transform: translateX(50%);
   transition: 2s;
 }
 
-.show2 {
+.hidden3 {
+  opacity: 0;
+  transform: translateZ(30%);
+  transition: 2s;
+}
+
+.show3 {
   opacity: 1;
   transform: translateZ(0%);
   transition: 2s;
