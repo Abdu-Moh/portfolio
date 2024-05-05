@@ -135,6 +135,7 @@ body {
   opacity: 0;
   transform: translateX(50%);
   transition: 2s;
+  overflow-x: hidden !important;
 }
 
 .view {
