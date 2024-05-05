@@ -61,10 +61,6 @@ body {
   display: flex;
 }
 
-.cert-flex {
-  flex-basis: 100%;
-}
-
 .padding-section-small {
   padding-top: 50px !important;
   width: 100%;
