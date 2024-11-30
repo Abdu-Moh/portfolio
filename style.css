@@ -1151,6 +1151,12 @@ img {
     align-items: right;
   }
 
+    .margin-bottom {
+    margin-top: 0;
+/*     margin-left: 0; */
+    margin-right: 0;
+  }
+
   .content-component {
     grid-column-gap: 3rem;
     grid-row-gap: 3rem;
