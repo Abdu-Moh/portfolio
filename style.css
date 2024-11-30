@@ -1136,10 +1136,16 @@ img {
     grid-auto-flow: row;
     justify-items: center;
   }
-
+  
   .portfolio-title-wrapper {
-    grid-column-gap: 3rem;
-  }
+/*   grid-column-gap: 5rem;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr max-content;
+  grid-auto-columns: 1fr;
+  justify-content: space-between;
+  align-items: center; */
+  display: block;
+}
 
   .content-component {
     grid-column-gap: 3rem;
