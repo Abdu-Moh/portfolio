@@ -1171,17 +1171,6 @@ img {
   }
 }
 
-@media screen and (max-width: 800px) {
-    .content-component {
-    grid-template-columns: 1fr;
-  }
-
-    .content-image-wrapper {
-    display: none !important;
-  }
-  
-}
-
 @media screen and (max-width: 768px) {
 
   .w-nav-brand {
@@ -1356,6 +1345,10 @@ img {
 
   .content-image-wrapper {
     display: none;
+  }
+  
+  .content-image-wrapper {
+    display: none !important;
   }
   
 }
