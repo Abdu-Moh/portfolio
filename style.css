@@ -1169,6 +1169,11 @@ img {
     z-index: 0;
     width: 0px;
   }
+
+  .content-image-wrapper {
+    display: none;
+  }
+  
 }
 
 @media screen and (max-width: 767px) {
