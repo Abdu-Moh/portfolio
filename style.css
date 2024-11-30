@@ -1137,25 +1137,9 @@ img {
     justify-items: center;
   }
   
-/*   .portfolio-title-wrapper {
-  grid-column-gap: 5rem;
-  grid-template-rows: auto;
-  grid-template-columns: 1fr max-content;
-  grid-auto-columns: 1fr;
-  justify-content: space-between;
-  align-items: center;
-  display: block;
-}
- */
-/*   .portfolio-title-wrapper a {
-    align-items: right;
-  } */
-
-/*     .margin-bottom {
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
-  } */
+  .portfolio-title-wrapper {
+    display: block;
+  }
 
   .content-component {
     grid-column-gap: 3rem;
