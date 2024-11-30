@@ -1147,6 +1147,10 @@ img {
   display: block;
 }
 
+  .portfolio-title-wrapper a {
+    align-items: right;
+  }
+
   .content-component {
     grid-column-gap: 3rem;
     grid-row-gap: 3rem;
@@ -1310,14 +1314,6 @@ img {
 
   .header-component {
     grid-row-gap: 3rem;
-  }
-
-  .portfolio-title-wrapper {
-    grid-row-gap: 1.5rem;
-    flex-direction: column;
-    grid-template-columns: 1fr;
-    align-items: flex-start;
-    justify-items: start;
   }
 
   .content-component {
