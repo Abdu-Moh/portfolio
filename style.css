@@ -1147,13 +1147,13 @@ img {
   display: block;
 }
 
-  .portfolio-title-wrapper a {
+/*   .portfolio-title-wrapper a {
     align-items: right;
-  }
+  } */
 
     .margin-bottom {
     margin-top: 0;
-    margin-left: 0;
+/*     margin-left: 0; */
     margin-right: 0;
   }
 
