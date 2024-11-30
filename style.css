@@ -1052,10 +1052,10 @@ img {
       align-items: flex-start;
   }
 
-  .portfolio-title-wrapper > * {
+/*   .portfolio-title-wrapper > * {
     margin: 0;
     padding: 0;
-  }
+  } */
 }
 
 @media screen and (max-width: 1024px) {
