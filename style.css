@@ -1137,16 +1137,16 @@ img {
     justify-items: center;
   }
   
-  .portfolio-title-wrapper {
-/*   grid-column-gap: 5rem;
+/*   .portfolio-title-wrapper {
+  grid-column-gap: 5rem;
   grid-template-rows: auto;
   grid-template-columns: 1fr max-content;
   grid-auto-columns: 1fr;
   justify-content: space-between;
-  align-items: center; */
+  align-items: center;
   display: block;
 }
-
+ */
 /*   .portfolio-title-wrapper a {
     align-items: right;
   } */
