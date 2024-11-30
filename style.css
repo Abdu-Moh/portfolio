@@ -1177,7 +1177,7 @@ img {
   }
 
     .content-image-wrapper {
-    display: none;
+    display: none !important;
   }
   
 }
