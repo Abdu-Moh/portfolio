@@ -1,3 +1,4 @@
+
 @font-face {
   src: url(Fonts/UbuntuSans-VariableFont_wdth\,wght.ttf);
   font-family: 'Ubuntu Sans';
@@ -1112,7 +1113,11 @@ img {
 
   .padding-section-large {
     padding-top: 6rem;
-    margin-bottom: -6rem;
+    padding-bottom: 6rem;
+  }
+
+  .container {
+    display: none;
   }
 
   .navbar-container {
